@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
     vendor/lenovo/kuntao/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/lenovo/kuntao/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
-    vendor/lenovo/kuntao/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
+    vendor/lenovo/kuntao/proprietary/lib/extractors/libmmparserextractor.so:system/lib/extractors/libmmparserextractor.so \
     vendor/lenovo/kuntao/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/lenovo/kuntao/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/lenovo/kuntao/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
@@ -208,7 +208,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrwbplusDec.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxApeDec.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libOmxApeDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxApeDecSw.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/libOmxDsdDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxDsdDec.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libOmxEvrcDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxEvrcDec.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/libOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxG711Dec.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libOmxQcelp13Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxQcelp13Dec.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVpp.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
